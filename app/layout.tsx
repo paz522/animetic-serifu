@@ -24,7 +24,7 @@ export default function RootLayout({
         <title>AnimeticSerifu</title>
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <div className="min-h-screen flex flex-col">
             <Navigation />
             <main className="flex-1">{children}</main>
